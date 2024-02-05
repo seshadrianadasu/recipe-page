@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+:root{
+    --Nutmeg: hsl(14, 45%, 36%);
+    --DarkRaspberry: hsl(332, 51%, 32%);
+    --White: hsl(0, 0%, 100%);
+    --RoseWhite: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --LightGrey: hsl(30, 18%, 87%);
+    --WengeBrown: hsl(30, 10%, 34%);
+    --DarkCharcoal: hsl(24, 5%, 18%);
+    --Weights: 400;
+    --Weights: 400, 600, 700;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--Eggshell);
+    display: grid;
+   place-items: center;
+   min-height: 100vh;
+   margin: 2.5rem 0;
+   font-size: 16px;
+}
+main{
+    background-color: var(--White);
+    max-width: 50%;
+     padding:  27px;
+   border-radius: 12px;
+   padding-bottom: 2rem;
+   
+}
+.omlete{
+    width:100%;
+    height:100%;
+    border-radius: 8px;
+}
+.omlete-head h1{
+    font-family:"young serif","sans-serif";
+    font-weight: 400;
+    font-size: 2.3rem;
+    color: var(--DarkCharcoal);
+    padding-top: 20px; 
+}
+.para-article{
+    font-family: "outfit","sans-serif";
+    font-size: 16px;
+    color: var(--WengeBrown);
+    padding: 10px 0;
+}
+.preparation-section{
+    background-color: var(--RoseWhite);
+    margin-left: 10px;
+    border-radius: 12px;
+    padding: 20px;
+}
+.preparation-section ul li::marker{
+    color: var(--DarkRaspberry);
+}
+.preparation-section ul li{
+    padding-left: 1.1rem;
+}
+.preparation{
+    color: var(--DarkRaspberry);
+    font-family: "outfit","sans-serif";
+    padding-bottom: 10px;
+}
+.preparation-section ul{
+    padding-left: 20px;
+}
+span{
+    color: var(--WengeBrown);
+    font-weight: bold;
+    font-family: "outfit","sans-serif";
+}
+.Ingrediants-section{
+    font-family: "outfit","sans-serif";
+}
+.Ingrediants{
+    color: var(--Nutmeg);
+    font-family: "youngserif","sans-serif";
+    font-size: 800;
+    padding: 10px 0;
+}
+.Ingrediants-section ul li::marker {
+    color: var(--Nutmeg);
+
+}
+.Ingrediants-section ul li{
+    padding-left: 1.1rem;
+}
+.Ingrediants-section ul{
+    margin-left: 20px;
+    padding: 15px;
+    font-size:16ox;
+}
+ul li span{
+    /* margin-left: 1rem; */
+    font-weight: 700;
+}
+
+ul{
+    color: var(--WengeBrown);
+}
+ol{
+    color: var(--WengeBrown);
+}
+hr{
+    margin: 15px;
+    
+}
+.Instructions-section{
+    font-family: "outfit","sans-serif";
+    
+}
+.Instructions{
+    color: var(--Nutmeg);
+    font-family: "youngserif","sans-serif";
+    font-size: 800;
+    padding: 15px 0 ;
+}
+.Instructions-section ol {
+    margin: 20px;
+    font-size: 16px;
+}
+ol li::marker {
+    color: var(--Nutmeg);
+    font-family:"outfit","san-serif";
+    font-weight: bold; 
+}
+ol li {
+    padding: 5px;  
+
+}
+.Instructions-section ol li{
+    padding-left: 1.2rem;
+}
+
+.Nutrition-section{
+    font-family: "outfit","sans-serif";
+}
+.Nutrition{
+    color: var(--Nutmeg);
+    font-family: "youngserif","sans-serif";
+    font-size: 800;
+    padding: 15px 0;
+
+}
+.Nutrition-para{
+    color: var(--WengeBrown);
+   margin-bottom: 1.2rem;
+    font-size: 16px;
+}
+/* table{
+    /* border: 1px solid black; */
+    
+
+.Nutrition-section table{
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+.Nutrition-section tr > *{
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    
+}
+.Nutrition-section tr:not(:last-child)>*{
+    border-bottom:1px solid var(--LightGrey);
+}
+.Nutrition-section th {
+    text-align: left;
+}
+.Nutrition-section table tr th{
+    color: var(--Nutmeg);
+    
+
+}
+.Nutrition-section table tr td{
+    color: var(--WengeBrown);
+    
+}
+@media (max-width:768px) {
+    .omlete-head{
+        font-size: 0.9rem;
+    }
+    
+}
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
